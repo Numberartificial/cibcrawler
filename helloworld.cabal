@@ -19,6 +19,11 @@ library
   build-depends:       base >= 4.7 && < 5
                      , wreq
                      , lens
+                     , aeson
+                     , lens-aeson
+                     , containers
+                     , text
+                     , time
   default-language:    Haskell2010
 
 executable helloworld-exe
