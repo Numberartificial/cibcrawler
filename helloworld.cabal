@@ -23,6 +23,7 @@ library
                      , lens-aeson
                      , containers
                      , text
+                     , bytestring
                      , time
                      , tagsoup
                      , html-conduit
